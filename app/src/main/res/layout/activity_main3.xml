@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="3000dp"
+        android:background="@drawable/nida2"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dokter Mata dan Kulit"
+                android:textSize="35sp"
+                android:textColor="#000"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="140dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr.Aris"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jam :09:00 - 12:00"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="140dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr.Erry"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="140dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jam : 15:00-18:00"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="140dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

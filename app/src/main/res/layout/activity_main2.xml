@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:background="@drawable/nida1"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="200dp"
+                android:textSize="50dp"
+                android:text="SENIN"
+                android:background="#FFE4E1"
+                android:onClick="buka1"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="SELASA"
+                android:background="#FFE4E1"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:id="@+id/btn2"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="RABU"
+                android:background="#FFE4E1"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="KAMIS"
+                android:background="#FFE4E1"
+                android:onClick="buka2"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="JUMAT"
+                android:background="#FFE4E1"
+                android:onClick="buka2"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="SAbTU"
+                android:background="#FFE4E1"
+                android:onClick="buka2"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="50dp"
+                android:text="MINGGU"
+                android:background="#FFE4E1"
+                android:textColor="#6A5ACD"
+                android:textStyle="italic"
+                android:layout_marginLeft="140dp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
